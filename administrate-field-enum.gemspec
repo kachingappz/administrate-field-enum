@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
   s.name = 'administrate-field-enum'
-  s.version = '0.0.8'
+  s.version = '0.0.9'
   s.authors = ['Balbina Santana', 'Adrian Rangel']
   s.email = ['adrian@disruptiveangels.com']
   s.homepage = 'https://github.com/DisruptiveAngels/administrate-field-enum'
@@ -14,5 +14,5 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split("\n")
   s.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  s.add_dependency 'administrate', '~> 0.12'
+  s.add_dependency 'administrate', '>= 0.12'
 end
